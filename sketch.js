@@ -141,7 +141,7 @@ function draw() {
   textSize(20)
   textFont(PoppinsMedium)
   fill('black')
-  text("Gambaran Umum Desa Korpri Jaya",360,980)
+  text("Gambaran Umum Desa Korpri Jaya",330,980)
   
   textSize(18)
   textFont(PoppinsExtraLight)
