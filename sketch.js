@@ -104,7 +104,7 @@ function draw() {
   rect(0,0,1600,900);
   
 //Logo Kota
-  image(logo,750,187,150,150);
+  image(logo,750,187,200,200);
   
 //Logo ITERA 
   image(logoitera,1400,50,160,160);
@@ -127,9 +127,17 @@ function draw() {
 //Organigram Desa Korpri Jaya
   image(organigram,10,1400,1000,625)
   
+  fill('white')
+  rect(10,1000,100,300);
+  textSize(20)
+  textFont(PoppinsMedium)
+  fill('black')
+  text("Struktur Organisasi Desa Korpri Jaya",329,1430)
+  
+  
 //Gambaran Umum Desa Korpri Jaya 
   fill('white')
-  rect(100,952,800,500);
+  rect(100,952,700,400);
   textSize(20)
   textFont(PoppinsMedium)
   fill('black')
