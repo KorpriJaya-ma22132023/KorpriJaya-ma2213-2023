@@ -125,7 +125,7 @@ function draw() {
   text("Kode Pos 35131", 720,540)
   
 //Organigram Desa Korpri Jaya
-  image(organigram,10,1400,1000,625)
+  image(organigram,10,1350,1000,625)
   
   fill('white')
   rect(10,1000,100,300);
