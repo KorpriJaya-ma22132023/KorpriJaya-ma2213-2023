@@ -19,6 +19,8 @@ let urlpekerjaan =
 
 let latar;
 let logo;
+let logoitera;
+let logomtkitera;
 let organigram;
 let PoppinsSemiBold;
 let PoppinsMedium;
@@ -75,6 +77,8 @@ function preload(){
   dataAPI = loadJSON(urlAPI);
   latar = loadImage('latar.png');
   logo = loadImage('logo_balam.png');
+  logoitera = loadImage('logo_itera.png')
+  logomtkitera = loadImage('logomtkitera.png')
   organigram = loadImage('Organigram.png');
   PoppinsSemiBold = loadFont('PoppinsSemiBold.ttf')
   PoppinsMedium = loadFont('PoppinsMedium.ttf')
@@ -101,6 +105,12 @@ function draw() {
   
 //Logo Kota
   image(logo,750,187,150,150);
+  
+//Logo ITERA 
+  image(logoitera,1400,50,160,160);
+
+//Logo Matematika ITERA
+  image(logomtkitera,1230,50,160,160);
 
   //Text Judul 
   fill('white');
