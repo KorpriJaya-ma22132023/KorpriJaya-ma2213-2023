@@ -104,7 +104,7 @@ function draw() {
   rect(0,0,1600,900);
   
 //Logo Kota
-  image(logo,750,187,200,200);
+  image(logo,740,155,200,200);
   
 //Logo ITERA 
   image(logoitera,1400,50,160,160);
